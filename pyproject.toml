@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pytestconfig"
+name = "simple-pytest-config"
 version = "0.1.0"
 description = "Pass config options to your unit tests."
 authors = ["BobBorges"]
