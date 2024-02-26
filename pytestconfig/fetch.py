@@ -24,7 +24,7 @@ The `fetch_config()` function takes a single argument, which should be the name 
 """
 import inspect, json, os
 
-def fetch_config(test)
+def fetch_config(test):
     """
     Fetch config for a particular test, or return None.
     Args:
