@@ -12,7 +12,6 @@ Source = "https://github.com/BobBorges/pytest-cfg-fetcher"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-wheel = "*"
 
 [tool.poetry.dev-dependencies]
 devtools = "^0.5.1"
