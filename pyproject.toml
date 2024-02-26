@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "simple-pytest-config"
+name = "pytest-cfg-fetcher"
 version = "0.1.0"
 description = "Pass config options to your unit tests."
 authors = ["BobBorges"]
@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [project.urls]
-Source = "https://github.com/BobBorges/pytestconfig"
+Source = "https://github.com/BobBorges/pytest-cfg-fetcher"
 
 [tool.poetry.dependencies]
 python = "^3.8"
