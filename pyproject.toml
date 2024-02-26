@@ -7,7 +7,7 @@ authors = ["BobBorges"]
 license = "MIT"
 readme = "README.md"
 packages = [
-    { include = "pytest-cfg-fetcher", from = "" }
+    { include = "pytest_cfg_fetcher", from = "" }
 ]
 [project.urls]
 Source = "https://github.com/BobBorges/pytest-cfg-fetcher"
