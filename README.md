@@ -1,4 +1,4 @@
-# pytestconfig
+# pytest-cfg-fetcher
 
 Unit tests don't take arguments. Sometimes we like to pass an arg or two, e.g. you want to write test results to a file when running locally. This is a simple function to do that.
 
@@ -24,12 +24,12 @@ The `fetch_config()` function takes a single argument, which should be the name 
 
 ## Installation
 
-	pip install pytestconfig
+	pip install pytest-cfg-fetcher
 
 ## Usage
 ```python
 # mytest.py
-from pytestcongfig.fetch import fetch_config
+from pytest-cfg-fetcher.fetch import fetch_config
 import unittest
 
 class Test(unittest.TestCase):
