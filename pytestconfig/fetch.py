@@ -36,14 +36,15 @@ def fetch_config(test):
         """
         gets path of the file that calle fetch_config.
         """
-        for frame in inspect.stack()[1:]:
-            if frame.filename[0] != '<':
-                return os.path.dirname(os.path.relpath(frame.filename))
+        for frame in inspect.stack():
+            if 'fetch_config' in frame.code_context[0]:
+                return os.path.dirname(frame.filename)
     try:
-        with open(f"{_caller_path()}/_test_config/test.json", 'r') as j:
+        test_path = _caller_path()
+        with open(f"{test_path}/_test-config/config.json", 'r') as j:
             d = json.load(j)
             config = d[test]
-            config['test_out_path'] = d['test_out_path']
+            config['test_out_dir'] = d['test_out_dir']
         return config
     except:
         return None
