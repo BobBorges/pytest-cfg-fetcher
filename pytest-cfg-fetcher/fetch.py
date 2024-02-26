@@ -54,7 +54,7 @@ def fetch_config(test):
 Usage:
 ```
 
-from pytestcongfig.fetch import fetch_config
+from pytest_cfg_fetcher.fetch import fetch_config
 import unittest
 
 class Test(unittest.TestCase):
