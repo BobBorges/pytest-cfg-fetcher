@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pytestconfig"
+version = "0.1.0"
+description = "Pass config options to your unit tests."
+authors = ["BobBorges"]
+license = "MIT"
+readme = "README.md"
+
+[project.urls]
+Source = "https://github.com/BobBorges/pytestconfig"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
