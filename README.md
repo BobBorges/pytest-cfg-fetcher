@@ -1,8 +1,10 @@
+[![Relese new version](https://github.com/BobBorges/pytest-cfg-fetcher/actions/workflows/release.yml/badge.svg)](https://github.com/BobBorges/pytest-cfg-fetcher/actions/workflows/release.yml)
+[![PyPI version](https://badge.fury.io/py/pytest-cfg-fetcher.svg)](https://badge.fury.io/py/pytest-cfg-fetcher)
 # pytest-cfg-fetcher
 
 Unit tests don't take arguments. Sometimes we like to pass an arg or two, e.g. you want to write test results to a file when running locally. This is a simple function to do that.
 
-pytestconfig assumes you have a directory called `_test-config/` in the same directory as your unit tests, e.g. under `test/`. The `_test-config/` dir contains a `config.json` file/
+pytest-cfg-fetcher assumes you have a directory called `_test-config/` in the same directory as your unit tests, e.g. under `test/`. The `_test-config/` dir contains a `config.json` file/
 
 `_test-config/config.json` contians minimally:
 
